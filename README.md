@@ -1,4 +1,4 @@
-The Fast Pizza Ordering App is a lightweight and responsive React application that allows users to browse a selection of pizzas and quickly place an order. 
+The  Pizza Ordering App is a lightweight and responsive React application that allows users to browse a selection of pizzas and quickly place an order. 
 It’s designed for simplicity and speed, perfect for small businesses or learning projects. 
 Key features include: 
  🧾 Dynamic Menu: Showcases different pizza options with prices. 
