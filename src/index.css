@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.input {
+  @apply w-full p-3 border border-gray-300 rounded-lg bg-white text-gray-800 
+  placeholder-gray-500 focus:outline-none focus:ring-2 
+  focus:ring-yellow-400 focus:border-yellow-400 
+  transition-all duration-300 transform hover:scale-105;
+}
+.loader {
+  border: 4px solid #f3f3f3; /* Light gray border */
+  border-top: 4px solid #3498db; /* Blue top */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite; /* Spins infinitely */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
